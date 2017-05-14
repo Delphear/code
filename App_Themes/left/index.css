@@ -1,0 +1,165 @@
+#Indexbody {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(Images/topbg.gif) #fff repeat-x left top; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+A:link {
+	FONT: 12px "ËÎÌו"; COLOR: #1835d1; TEXT-DECORATION: none
+}
+A:visited {
+	FONT: 12px "ËÎÌו"; COLOR: #1835d1; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #f30; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #f30; TEXT-DECORATION: underline
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+#content {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(Images/logo.gif) no-repeat left top; PADDING-TOP: 23px
+}
+#ChannelMenuItems {
+	HEIGHT: 30px; OVERFLOW: hidden
+}
+#ChannelMenuItems LI {
+	HEIGHT: 30px; OVERFLOW: hidden
+}
+#ChannelMenuItems A {
+	HEIGHT: 30px; OVERFLOW: hidden
+}
+#ChannelMenuItems A SPAN {
+	HEIGHT: 30px; OVERFLOW: hidden
+}
+#ChannelMenuItems {
+	MARGIN: 0px 0px 0px 220px
+}
+#ChannelMenuItems LI {
+	FLOAT: left; MARGIN-RIGHT: 3px
+}
+*#ChannelMenuItems A {
+	LINE-HEIGHT: 20px; DISPLAY: block; BACKGROUND: url(Images/none_left.gif) #ffefbd no-repeat left top; FLOAT: left; TEXT-DECORATION: none
+}
+*#ChannelMenuItems A SPAN {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; DISPLAY: block; BACKGROUND: url(Images/none_side.gif) no-repeat right top; FLOAT: left; CURSOR: pointer; PADDING-TOP: 7px
+}
+*#ChannelMenuItems LI A {
+	BACKGROUND: url(Images/digital_left.gif) #2e7bcb no-repeat left top
+}
+*#ChannelMenuItems LI A SPAN {
+	BACKGROUND: url(Images/digital_side.gif) no-repeat right top; FONT-WEIGHT: bold
+}
+*.digitaltext {
+	COLOR: #2867b1
+}
+*#ChannelMenuItems LI A {
+	COLOR: #2867b1
+}
+*.segtext {
+	COLOR: #fff
+}
+*#SubMenu {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; HEIGHT: 25px; COLOR: #fff; MARGIN-LEFT: 225px
+}
+*#SubMenu LI {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: url(Images/chanli.gif) no-repeat left center; FLOAT: left
+}
+*#SubMenu LI A {
+	LINE-HEIGHT: 25px; DISPLAY: block; COLOR: #fff
+}
+*.SubMenuDiv {
+	Z-INDEX: 2; BORDER-BOTTOM: #9fbdd7 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #9fbdd7 1px solid; FLOAT: left; VISIBILITY: hidden; BORDER-TOP: #9fbdd7 1px solid; BORDER-RIGHT: #9fbdd7 1px solid
+}
+*.SubMenuDiv DL {
+	TEXT-ALIGN: left; MARGIN: 0px
+}
+*.SubMenuDiv DD {
+	TEXT-ALIGN: left; MARGIN: 0px
+}
+*.SubMenuDiv DD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1px; WIDTH: 130px; PADDING-RIGHT: 1px; PADDING-TOP: 0px
+}
+*.SubMenuDiv DL {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(Images/SubMenuDivbg.gif) #d6e7f7 repeat-y left top; PADDING-TOP: 1px
+}
+*#SubMenu DD A {
+	PADDING-LEFT: 20px
+}
+#SubMenu DD A:hover {
+	PADDING-LEFT: 20px
+}
+#SubMenu DD A {
+	COLOR: #446592
+}
+#SubMenu DD A:hover {
+	BACKGROUND: #e4f1fc; COLOR: #003685; TEXT-DECORATION: underline
+}
+.clearbox2 {
+	MARGIN-TOP: -1px !important; WIDTH: 700px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: 1px solid
+}
+#Announce {
+	POSITION: absolute; COLOR: #2b6ab3; TOP: 23px; RIGHT: 5px
+}
+#Announce A {
+	FONT: 12px "ËÎÌו"; TEXT-DECORATION: none
+}
+#Announce A:link {
+	COLOR: #2b6ab3
+}
+#Announce A:visited {
+	COLOR: #2b6ab3
+}
+#Announce A:active {
+	COLOR: #c00
+}
+#Announce A:hover {
+	COLOR: #c00
+}
+.but {
+	CURSOR: pointer
+}
+.popupTips {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 247px; BOTTOM: 0px; DISPLAY: none; BACKGROUND: url(Images/bg_tipsAll.gif) repeat-y left 50%; RIGHT: 20px
+}
+.popupTips DT {
+	LINE-HEIGHT: 27px; PADDING-LEFT: 18px; BACKGROUND: url(Images/bg_tipsTop.gif) no-repeat left top; HEIGHT: 29px; COLOR: #3666aa; FONT-WEIGHT: bolder
+}
+.popupTips DT A {
+	LINE-HEIGHT: 27px; WIDTH: 20px; DISPLAY: block; FLOAT: right; HEIGHT: 27px; CURSOR: pointer
+}
+.tips_close {
+	BACKGROUND: url(Images/bt_close.gif) no-repeat left 10px
+}
+*.tips_fold {
+	BACKGROUND: url(Images/bt_fold.gif) no-repeat left 11px
+}
+*.popupTips DD {
+	PADDING-BOTTOM: 20px; MIN-HEIGHT: 100px; PADDING-LEFT: 25px; PADDING-RIGHT: 5px; BACKGROUND: url(Images/bg_tipsBottom.gif) no-repeat left bottom; HEIGHT: auto !important; PADDING-TOP: 8px
+}
+*.popupTips DD A {
+	LINE-HEIGHT: 17px; COLOR: #3666aa
+}
+*.popupTips DD A:visited {
+	LINE-HEIGHT: 17px; COLOR: #3666aa
+}
+*.popupTips DD A:hover {
+	COLOR: #2e82f9
+}

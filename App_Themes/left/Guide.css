@@ -1,0 +1,75 @@
+*#Guidebody {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #a9c9ee; PADDING-TOP: 5px
+}
+#Guide_back {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#Guide_back UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+*#Guide_back LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#Guide_back {
+	BACKGROUND: url(Images/Guide_main.gif) #a9c9ee repeat-y left 50%
+}
+*#Guide_top {
+	BACKGROUND: url(Images/Guide_top.gif) #a9c9ee no-repeat left top; HEIGHT: 45px
+}
+#Guide_toptext {
+	MARGIN: 0px 0px 0px 45px; FONT-FAMILY: "ËÎÌו"; COLOR: #28569b; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 25px
+}
+*#Guide_main {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#Guide_box {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.guideexpand {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; PADDING-LEFT: 30px; FONT-FAMILY: "ËÎÌו"; HEIGHT: 25px; COLOR: #08377c; FONT-SIZE: 14px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.guidecollapse {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; PADDING-LEFT: 30px; FONT-FAMILY: "ËÎÌו"; HEIGHT: 25px; COLOR: #08377c; FONT-SIZE: 14px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.guideexpand {
+	BACKGROUND: url(Images/guide_expand.gif) no-repeat left center
+}
+.guidecollapse {
+	BACKGROUND: url(Images/guide_collapse.gif) no-repeat left center
+}
+
+.guidesearch {
+	BACKGROUND-COLOR: #fff; MARGIN-RIGHT: 15px
+}
+
+.guide LI {
+ width:168px;PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.guidesearch {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; MARGIN-TOP: 2px
+}
+
+* HTML .guide LI {
+	HEIGHT: 25px
+}
+.guide A {
+	text-decoration: none;TEXT-ALIGN: left; PADDING-BOTTOM: 3px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; TEXT-DECORATION: none; PADDING-TOP: 3px
+}
+*.guide A:link {
+	text-decoration: none;BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; COLOR: #4579b9; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+.guide A:visited {
+	text-decoration: none;BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; COLOR: #4579b9; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+*.guide A:hover {
+	text-decoration: none;BORDER-BOTTOM: #e6eff8 1px solid; BORDER-LEFT: #e6eff8 1px solid; BACKGROUND-COLOR: #f2f8fd; COLOR: #c00; BORDER-TOP: #e6eff8 1px solid; BORDER-RIGHT: #e6eff8 1px solid; TEXT-DECORATION: none
+}
+#Guide_bottom {
+	BACKGROUND: url(Images/Guide_bottom.gif) #adcbef no-repeat left top; HEIGHT: 13px
+}
+.refresh {
+	POSITION: absolute; WIDTH: 15px; BACKGROUND: url(Images/refresh.gif) no-repeat center center; HEIGHT: 15px; TOP: 29px; CURSOR: pointer; LEFT: 160px
+}
+.quickLink LI {
+	WHITE-SPACE: nowrap; FLOAT: left
+}

@@ -1,0 +1,25 @@
+	1.帮助文件修正
+	2.头像GIF动画显示的修正
+	3.登陆 年 COOKIE的修正
+	4.修正搜索时关键字为链接时的错误
+	5.回复的美化
+	6.增加了MSN
+	7.增加了关闭留言簿
+	8.错误页的修正
+	9.更正QQ位数不能为九位的错误
+	10.完成Jmail的配置 ，可以邮件回复了，方便了不少人呀。
+	11.ID的非法字符的校验（感谢一位网友）
+	12.过滤SQL注入
+
+
+
+
+
+EMAIL:admin@fxren.com
+HTTP://WWW.LUNJI.COM
+HTTP://WWW.FXREN.COM
+
+HTTP://WWW.CBE.COM.CN
+HTTP://WWW.SUNBTOB.COM
+HTTP://WWW.JACCY.COM
+HTTP://WWW.LOTAD.COM
