@@ -83,15 +83,15 @@ public partial class fycjlr : Sper.baseadmin
         }
         //String id=Request["id"].ToString();
 
-        int ID = Convert.ToInt32(Request.QueryString["id"]);
+        int ID = Convert.ToInt32(Request.QueryString["fid"]);
         //int ID = Convert.ToInt32(Request["fid"].ToString());
 
        // System.Diagnostics.Debug.WriteLine(ID);
         System.Diagnostics.Debug.WriteLine("成交处理ID:" +"******"+ID+"(**)");
 //TODO   ID 无法获取到
-        //string sql = "update h_fangyuan set 签约人='" + TextBox1.Text.Trim() + "',成交形式='" + TextBox2.Text.Trim().Trim() + "',中介费='" + TextBox3.Text.Trim() + "',签约时间='" + DateTime.Parse(start_time) + "',说明='" + TextBox4.Text + "',qid='" + int.Parse(Session["adminid"].ToString()) + "',成交状况='已成交',成交时间='" + DateTime.Now + "' where id=" + ID;
-        //System.Diagnostics.Debug.WriteLine(sql);
-        //DbHelperSQL.Query(sql);
+        string sql = "update h_fangyuan set 签约人='" + TextBox1.Text.Trim() + "',成交形式='" + TextBox2.Text.Trim().Trim() + "',中介费='" + TextBox3.Text.Trim() + "',签约时间='" + DateTime.Parse(start_time) + "',说明='" + TextBox4.Text + "',qid='" + int.Parse(Session["adminid"].ToString()) + "',成交状况='已成交',成交时间='" + DateTime.Now + "' where id=" + ID;
+        System.Diagnostics.Debug.WriteLine(sql);
+        DbHelperSQL.Query(sql);
         MessageBox.Show(this.Page, "成交信息提交成功！");
         Response.Write(" <script language='javascript'>top.frames('main_right').location.href='wdcjfy.aspx';</script>");
     }

@@ -20,8 +20,9 @@ public partial class fyxx : Sper.baseadmin
             if (!IsPostBack)
             {
                 int ID = Convert.ToInt32(Request.QueryString["id"]);
-                System.Diagnostics.Debug.WriteLine("ID:" + ID);
+                System.Diagnostics.Debug.WriteLine("ID:" + ID);              
                 Literal33.Text = Request.QueryString["id"].ToString();
+                System.Diagnostics.Debug.WriteLine("Literal****" + Literal33.Text);
                 string sql2 = "SELECT uid FROM h_fangyuan WHERE id=" + ID;
                 DataTable dtTable2 = DbHelperSQL.Query(sql2).Tables[0];
                 string sql1 = "SELECT id FROM h_userinf WHERE id=" + int.Parse(dtTable2.Rows[0]["uid"].ToString());
@@ -76,7 +77,7 @@ public partial class fyxx : Sper.baseadmin
                 Literal34.Text = "<a href='tencent://message/?Menu=yes&uin=" + dtTable.Rows[0]["qq"].ToString().Trim () + "&Site=&Service=200' target='_blank'><img src='images/qq.gif'  border='0' /></a>";
                 if (dtTable.Rows[0]["成交状况"].ToString() == "未成交")
                 {
-                    Image1.Visible = true;
+                    cj.Visible = true;
                 }
                 else if (dtTable.Rows[0]["成交状况"].ToString() == "已成交")
                 {
@@ -98,6 +99,19 @@ public partial class fyxx : Sper.baseadmin
         if (Panel1.Visible == true)
         {
             Panel1.Visible = false;
+        }
+        else
+        {
+            binddr();
+        }
+    }
+    protected void cj_Click(object sender, ImageClickEventArgs e)//跟进信息
+    {
+        if (cj.Visible == true)
+        {
+            string s_url;
+            s_url = "fycjlr.aspx?fid=" + Literal33.Text;
+            Response.Redirect(s_url); 
         }
         else
         {

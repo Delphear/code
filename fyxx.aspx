@@ -255,11 +255,14 @@ var P = window.parent, D = P.loadinndlg();   // 注意！这行代码是每个�
                  ImageUrl="~/images/btn/pingjia.jpg"  
         Width="88px" onclick="pj_Click"  />
             <asp:Literal ID="Literal33" runat="server" Visible="False"></asp:Literal>
-  <a href ="#" onclick=" D.J.dialog.get({ id: 'child', title: '成交处理', page: D.J.ie ? 'fycjlr.aspx?fid=<%= Literal33.Text %>' : 'fycjlr.aspx', width: 700, height: 350, nofoot: true , cover: true, nodrag:true });">
+  <asp:ImageButton ID="cj" runat="server" Height="33px" 
+                 ImageUrl="~/images/btn/chengjiao.jpg"  
+        Width="88px" onclick="cj_Click" Visible="False"  />
+ <!-- <a href ="#" onclick=" J.dialog.get({ id: 'child', title: '成交处理', page: D.J.ie ? 'fycjlr.aspx?fid=<%= Literal33.Text %>' : 'fycjlr.aspx', width: 700, height: 350, nofoot: true , cover: true, nodrag:true });">
       
       <asp:Image ID="Image1" runat="server" ImageUrl="~/images/btn/chengjiao.jpg" 
                 Visible="False" />
-     </a>
+     </a>-->
 </div>
     </div>
     <asp:Panel ID="Panel1" runat="server" style="text-align: center" Visible="False">

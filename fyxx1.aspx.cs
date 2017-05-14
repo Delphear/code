@@ -21,6 +21,7 @@ public partial class fyxx1 : Sper.baseadmin
             {
                 int ID = Convert.ToInt32(Request.QueryString["id"]);
                 Literal33.Text = Request.QueryString["id"].ToString();
+                System.Diagnostics.Debug.WriteLine("Literal****"+Literal33.Text);
                 string sql2 = "SELECT uid FROM h_fangyuan WHERE id=" + ID;
                 DataTable dtTable2 = DbHelperSQL.Query(sql2).Tables[0];
                 string sql1 = "SELECT id FROM h_userinf WHERE id=" + int.Parse(dtTable2.Rows[0]["uid"].ToString());
@@ -106,6 +107,7 @@ public partial class fyxx1 : Sper.baseadmin
     {
         Panel1.Visible = true;
         int ID = Convert.ToInt32(Request.QueryString["id"]);
+        System.Diagnostics.Debug.WriteLine("处理ID:" + "******" + ID + "(**)");
         string sql = "SELECT * FROM h_fypj WHERE fid=" + ID + " ORDER BY id desc";
         DataView dv = DbHelperSQL.Query(sql).Tables[0].DefaultView;
         PagedDataSource pds = new PagedDataSource();
